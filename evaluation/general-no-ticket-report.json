@@ -1,0 +1,21 @@
+{
+  "answer": "После включения MFA в профиле создаётся набор из 10 резервных кодов. Каждый код позволяет пройти один запрос второго фактора и после применения становится недействительным.",
+  "sources": [
+    {
+      "type": "knowledge",
+      "id": "auth-backup",
+      "title": "Резервные коды MFA",
+      "section": "Получение и хранение",
+      "url": "/api/knowledge/auth-backup"
+    }
+  ],
+  "needs_clarification": false,
+  "context_status": "complete",
+  "retrieved_doc_ids": [
+    "auth-backup",
+    "auth-mfa"
+  ],
+  "conversation_id": "9c27927df3cfcd8aa89ae5d5ca6452c9",
+  "request_id": "64e0c63b5c4346f89e28183fd9a509f3",
+  "ticket_id": null
+}

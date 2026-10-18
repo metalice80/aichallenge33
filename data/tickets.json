@@ -1,0 +1,182 @@
+[
+  {
+    "id": "t_101",
+    "user_id": "u_001",
+    "subject": "Не получается войти",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": "SSO_CERT_EXPIRED",
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "После корпоративного входа вижу SSO_CERT_EXPIRED. Сертификат провайдера истёк.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_102",
+    "user_id": "u_002",
+    "subject": "Не получается войти",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": "ACCOUNT_TEMP_LOCKED",
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "Пять раз ввёл неверный пароль; в 10:00 UTC появилась ACCOUNT_TEMP_LOCKED.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_103",
+    "user_id": "u_003",
+    "subject": "Не подтверждена почта",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": "EMAIL_UNVERIFIED",
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "После регистрации не могу принять приглашение: EMAIL_UNVERIFIED.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_104",
+    "user_id": "u_004",
+    "subject": "Не подходит код MFA",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": "MFA_INVALID",
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "Приложение выдаёт код, но вход отклонён с MFA_INVALID.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_105",
+    "user_id": "u_005",
+    "subject": "Отклонён платёж",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": "PAYMENT_DECLINED",
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "Продление Team отклонено банком, вижу PAYMENT_DECLINED.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_106",
+    "user_id": "u_003",
+    "subject": "Большой файл не загружается",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": "FILE_TOO_LARGE",
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "На Free пытаюсь загрузить файл 40 МБ, получаю FILE_TOO_LARGE.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_107",
+    "user_id": "u_001",
+    "subject": "Истёкшее приглашение",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": "INVITE_EXPIRED",
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "Коллега открыл ссылку через четыре дня и видит INVITE_EXPIRED.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_108",
+    "user_id": "u_002",
+    "subject": "Не приходят уведомления",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": null,
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "Письма о назначенных мне задачах не видны во входящих.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_109",
+    "user_id": "u_004",
+    "subject": "Где скачать счёт",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": null,
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "Я администратор пространства и хочу скачать счёт за прошлый месяц.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  },
+  {
+    "id": "t_110",
+    "user_id": "u_005",
+    "subject": "Не работает",
+    "status": "open",
+    "product": "TeamSpace",
+    "product_version": "1.0",
+    "error_code": null,
+    "created_at": "2026-10-18T10:00:00Z",
+    "updated_at": "2026-10-18T10:10:00Z",
+    "messages": [
+      {
+        "author": "user",
+        "text": "Что-то не работает, подробностей пока нет.",
+        "created_at": "2026-10-18T10:00:00Z"
+      }
+    ]
+  }
+]

@@ -1,0 +1,54 @@
+{
+  "api": "ok",
+  "think": false,
+  "ollama": {
+    "status": "ok",
+    "details": [
+      "bge-m3:latest",
+      "qwen3:8b"
+    ]
+  },
+  "mcp": {
+    "status": "ok",
+    "details": [
+      {
+        "id": "u_001",
+        "name": "Анна"
+      },
+      {
+        "id": "u_002",
+        "name": "Борис"
+      },
+      {
+        "id": "u_003",
+        "name": "Вера"
+      },
+      {
+        "id": "u_004",
+        "name": "Глеб"
+      },
+      {
+        "id": "u_005",
+        "name": "Дарья"
+      }
+    ]
+  },
+  "index": {
+    "status": "ok",
+    "schema": 2,
+    "model": "bge-m3",
+    "dimension": 1024,
+    "collection": "knowledge_57a8e1813056466298365a525baa9869",
+    "metric": "cosine",
+    "chunk_size": 2000,
+    "overlap": 200,
+    "documents": 19,
+    "chunks": 57,
+    "created_at": "2026-10-18T19:12:06.403920+00:00"
+  },
+  "generation_probe": {
+    "status": "ok",
+    "think": false,
+    "answer": "Проверка"
+  }
+}

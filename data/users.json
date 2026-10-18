@@ -1,0 +1,42 @@
+[
+  {
+    "id": "u_001",
+    "name": "Анна",
+    "plan": "business",
+    "auth_method": "sso",
+    "product": "TeamSpace",
+    "product_version": "1.0"
+  },
+  {
+    "id": "u_002",
+    "name": "Борис",
+    "plan": "team",
+    "auth_method": "password",
+    "product": "TeamSpace",
+    "product_version": "1.0"
+  },
+  {
+    "id": "u_003",
+    "name": "Вера",
+    "plan": "free",
+    "auth_method": "password",
+    "product": "TeamSpace",
+    "product_version": "1.0"
+  },
+  {
+    "id": "u_004",
+    "name": "Глеб",
+    "plan": "business",
+    "auth_method": "password",
+    "product": "TeamSpace",
+    "product_version": "1.0"
+  },
+  {
+    "id": "u_005",
+    "name": "Дарья",
+    "plan": "team",
+    "auth_method": "password",
+    "product": "TeamSpace",
+    "product_version": "1.0"
+  }
+]

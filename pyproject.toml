@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools==84.0.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "teamspace-support-assistant"
+version = "0.1.0"
+description = "Локальный учебный ассистент TeamSpace: Ollama, Chroma, MCP"
+requires-python = ">=3.11,<3.15"
+dependencies = [
+  "fastapi==0.146.0", "uvicorn==0.54.0", "pydantic==2.14.1",
+  "pydantic-settings==2.16.0", "httpx==0.28.1", "chromadb==1.5.9", "mcp==1.30.0"
+]
+[project.optional-dependencies]
+test = ["pytest==9.1.1", "pytest-asyncio==1.4.0"]
+[project.scripts]
+support-assistant = "support_assistant.cli:main"
+[tool.setuptools.packages.find]
+where = ["src"]
+[tool.setuptools.package-data]
+support_assistant = ["static/*"]
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+markers = ["live: requires real Ollama and an indexed knowledge base"]
+addopts = "-m 'not live'"
